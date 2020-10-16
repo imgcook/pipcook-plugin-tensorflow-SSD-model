@@ -1,0 +1,28 @@
+{
+    "name": "@pipcook/plugins-tensorflow-ssd-model",
+    "version": "0.0.1",
+    "description": "ssd model define plugin based on tf2",
+    "main": "__init__.py",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "https://github.com/ZijinGao",
+    "dependencies": {
+    },
+    "devDependencies": {
+    },
+    "publishConfig": {
+      "access": "public"
+    },
+    "pipcook": {
+      "category": "modelDefine",
+      "datatype": "text",
+      "runtime": "python"
+    },
+    "conda": {
+      "python": "3.9",
+      "dependencies": {
+        "tensorflow": "2.1.0"
+      }
+    }
+  }
